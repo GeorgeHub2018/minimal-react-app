@@ -1,0 +1,39 @@
+<script src="https://fb.me/react-with-addons-15.3.0.js"></script>
+<script src="https://fb.me/react-dom-15.3.0.js"></script>
+
+<style>
+
+/* https://facebook.github.io/react/docs/animation.html */
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+</style>
+
+<div id="hello"></div>
+<script src="index.js"></script>

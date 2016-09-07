@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "build": "cp src/index.html build/index.html && ./node_modules/babel-cli/bin/babel.js --presets react src --out-dir build",
+    "serve": "cd build && python2 -m SimpleHTTPServer 8888 > /dev/null 2>&1 & sleep 2 && open http://localhost:8888/"
+  }
+}
