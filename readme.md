@@ -1,7 +1,9 @@
 A truly minimal React JS setup.
 
 npm install
+
 npm run build
+
 npm run serve
 
 ![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
